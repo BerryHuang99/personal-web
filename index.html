@@ -1,15 +1,153 @@
 <!DOCTYPE html/>
 <html>
 <head>
-<title>Berry's Home</title>
-<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-<meta lang="zh-cmn-Hans en">
-<meta name="keywords" content="黄玉峰, 个人网站, Berry Huang, Berry, Personal web, Blog">
-<link rel = "Shortcut Icon" href="images/icon/favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Berry's Home</title>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta lang="zh-cmn-Hans"/>
+    <meta name="keywords" content="黄玉峰, 个人网站, Berry Huang, Berry, Personal web, Blog"/>
+    <meta name="description" content="黄玉峰的个人网站"/>
+    <link rel = "Shortcut Icon" href="images/icon/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
 </head>
 
 <body>
+    <header>
+        <a class="logo " href="#">BERRY HUANG</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Note</a>
+                            <a class="dropdown-item" href="#">Essay</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Album</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Message</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+                
+        <div class="clearfix"></div>
+    </header>
+
+    <div class="banner">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>   
+        
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active slide1">
+                </div>
+            </div>
+
+            <img id="color-brush" src="images/brush.png"/>
+
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev"> </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next"> </a>
+        </div>
+    </div>
+
+    <div class="list container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 info"  style="text-align:center">
+                <div class="contact">
+                    <h4>CONTACT ME</h4>
+                    <hr style="border-color: #fff;"/>
+                    <i class="fa fa-envelope-o fa-2x" title="url(imges/bg1.png)"></i>
+                    <i class="fa fa-phone fa-2x"></i>
+                    <i class="fa fa-qq fa-2x"></i>
+                    <i class="fa fa-wechat fa-2x"></i>
+                </div>
+                <div class="contact">
+                    <h4>FOLLOW ME</h4>
+                    <hr style="border-color: #fff;"/>
+                    <i class="fa fa-github fa-2x"></i>
+                    <i class="fa fa-weibo fa-2x"></i>
+                    <i class="fa fa-facebook fa-2x"></i>
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-6 catalog">
+                <h4>Note</h4>
+                <a href="#" class="row list-tilte">
+                    <span class="col-md-9 col-ms-7">学习笔记</span>
+                    <span class="col-md-3 col-ms-5"><span class="time">MAR 27th 2017</span></span>
+                </a>
+                <a href="#" class="row list-title">
+                        <span class="col-md-9 col-ms-7">学习笔记</span>
+                        <span class="col-md-3 col-ms-5"><span class="time">MAR 27th 2017</span></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="list container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 catalog">
+                    <h4>Note</h4>
+                    <a href="#" class="row list-tilte">
+                        <span class="col-md-9 col-ms-7">学习笔记</span>
+                        <span class="col-md-3 col-ms-5"><span class="time">MAR 27th 2017</span></span>
+                    </a>
+                    <a href="#" class="row list-title">
+                            <span class="col-md-9 col-ms-7">学习笔记</span>
+                            <span class="col-md-3 col-ms-5"><span class="time">MAR 27th 2017</span></span>
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-6 info"  style="text-align:center">
+                        <div class="contact">
+                            <h4>CONTACT ME</h4>
+                            <hr style="border-color: #fff;"/>
+                            <i class="fa fa-envelope-o fa-2x" title="url(imges/bg1.png)"></i>
+                            <i class="fa fa-phone fa-2x"></i>
+                            <i class="fa fa-qq fa-2x"></i>
+                            <i class="fa fa-wechat fa-2x"></i>
+                        </div>
+                        <div class="contact">
+                            <h4>FOLLOW ME</h4>
+                            <hr style="border-color: #fff;"/>
+                            <i class="fa fa-github fa-2x"></i>
+                            <i class="fa fa-weibo fa-2x"></i>
+                            <i class="fa fa-facebook fa-2x"></i>
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center;">
+        &copy; 2017 by berry huang
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     
+        
 </body>
 </html>
